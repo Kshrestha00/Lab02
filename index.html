@@ -12,12 +12,11 @@
     <p>This is a new paragraph.</p>
     <hr />
     <!-- This is a comment -->
-    <p>This sentence uses <strong>for strong importance</strong>.</p>
-    <p>
-      This sentence uses both <strong>for strong importance</strong> and
-      <em>for emphasis</em>.
-    </p>
-    <p><i>This sentence is written in italic style.</i></p>
+    <dl>
+        <dd>&lt;This sentence uses <strong>for strong importance</strong>.&gt;</dd>
+    <dd>&lt;This sentence uses both <strong>for strong importance </strong>and <em>for emphasis</em>.&gt;</dd>
+    </dl>
+        <p><i>This sentence is written in italic style.</i></p>
     <p><small>This sentence is written in small style.</small></p>
     <p>
       This sentence contains <sub>subscript</sub> and
@@ -27,26 +26,16 @@
       This sentence contains <del>deleted text</del> and
       <ins>inserted text</ins>.
     </p>
-    <pre>The HTML <a href="#">(anchor) tag</a> defines a hyperlink.</p>
-    <p>
-      A hyperlink (or link) is a word, group of words, or image that you can
-      click on to jump to another document.
-    </p>
-    <p>
-      When you move the cursor over a link in a Web page, the arrow will turn
-      into a little hand.
-    </p>
-    <p>
-      The most important attribute of the <a href="#">a element</a> is the href
-      attribute, which indicates the link’s destination.
-    </p>
-    <p>By default, links will appear as follows in all browsers:</p>
-    <ol>
-      <li>An unvisited link is underlined and blue.</li>
-      <li>A visited link is underlined and purple.</li>
-      <li>An active link is underlined and red.</li>
-    </ol>
-    <p><p><a href="www.algomau.ca">Visit Algoma University</a></p></p>
+    <pre>The HTML <a> (anchor) tag defines a hyperlink.
+        A hyperlink (or link) is a word, group of words, or image that you can  click on to jump to another document.
+        When you move the cursor over a link in a Web page, the arrow will turn into a little hand.
+        The most important attribute of the <a> element is the href attribute, which indicates the link’s destination.
+        By default, links will appear as follows in all browsers:
+  
+              1. An unvisited link is underlined and blue.
+              2. A visited link is underlined and purple.
+              3. An active link is underlined and red.
+              <p><a href="www.algomau.ca">Algoma University</a></p></pre>
     <h1>Our Milky Way Galaxy</h1>
     <h2>The picture dimensions are 300x200 pixels</h2>
     <img src="file:///C:/Users/sawye/OneDrive/Documents/Desktop/milky-way.webp" alt="Description of the image" width="300" height="200">
@@ -62,7 +51,12 @@
       <li>The unordered List</li>
       <li>The definition List</li>
     </ul>
-    <dl style="margin-left: 50px">
+      <dl>
+        <dd>&lt;dt&gt;defines the item in the list.</dd>
+        <dd>&lt;dl&gt;-describes the item in the list.</dd>
+
+      </dl>
+      <p>For Example:</p>
       <dt><b>HTML</b></dt>
       <dd>- Hypertext Markup Language</dd>
     </dl>
